@@ -51,10 +51,10 @@ add()
 
 
 
-var variable = "Typescript"
+var variable = "Typescript" // Global scope 
 
 if(true){
-    var variable = "Javascript" 
+    var variable = "Javascript" //{...}
 }
 
 console.log(variable)
@@ -105,12 +105,12 @@ const l = 34
 // 3. It is not mandatory to assign the value of the variable at the time of declaration
 
 // 2. let
-// 1. Scope - Block scope {....}
+// 1. Scope - Global or Block scope {....}
 // 2. Variable declared using let can not be redeclared but can be reinitialised
 // 3. It is not mandatory to assign the value of the variable at the time of declaration
 
 // 3. const
-// 1. Scope - Block scope {....}
+// 1. Scope - Global or Block scope {....}
 // 2. Variable declared using const can not be redeclared and can not be reinitialised
 // 3. It is mandatory to assign the value of the variable at the time of declaration
 
