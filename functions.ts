@@ -124,7 +124,7 @@ function adds1(a,b,c="IIT"){
 }
 adds1(1,2) 
 
-function info(name : string, age? : number){
+function info(name : any, age? : any){
     if(age != undefined){
         console.log("Name is :", name ,"and age is : ", age)
     }else{
@@ -134,6 +134,9 @@ function info(name : string, age? : number){
 
 info("Rahul", 40)
 info("John")
+
+
+
 
 
 
